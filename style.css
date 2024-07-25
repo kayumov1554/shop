@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #212529;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  width: 1400px;
+  margin: 0 auto;
+  font-size: 25px;
+}
+#container {
+  width: 1400px;
+  height: 50vh;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#container .card {
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  padding: 20px 0;
+  border-radius: 15px;
+  font-size: 13px;
+}
+
+#container .card img {
+  width: 80%;
+}
+
+#container .card .info {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+#container .card .info button {
+  width: 25px;
+  height: 25px;
+  background: transparent;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  border: 2px solid #212529;
+  color: white;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+#container .card .info button:active {
+  transform: scale(0.9);
+}
+
+#container .shop {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
+
+#container .shop img {
+  width: 30px;
+}
+
+.price {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+}
+
+.price button {
+  width: 100px;
+  height: 50px;
+  background: transparent;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  border: 2px solid #212529;
+  color: white;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.price button:active {
+  transform: scale(0.9);
+}
+
+#login form {
+  width: 1400px;
+  margin: 0 auto;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#login form .inputs {
+  display: flex;
+  width: 112%;
+  gap: 20px;
+}
+#login form .inputs input {
+  width: 50%;
+  outline: none;
+  background: transparent;
+  border-bottom: 2px solid white;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  color: white;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+#login form .inputs input::placeholder {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+#login form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 200px;
+}
+
+#login form input {
+  width: 100%;
+  outline: none;
+  background: transparent;
+  border-bottom: 2px solid white;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  color: white;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+#login form input::placeholder {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+#login form button {
+  width: 70%;
+  height: 35px;
+  background: transparent;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  border: 2px solid #212529;
+  color: white;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+#login form button:active {
+  transform: scale(0.9);
+}
+
+#login form #text {
+  font-size: 18px;
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+@media screen and (max-width: 400px) {
+  nav .container {
+    width: 100%;
+    font-size: 15px;
+  }
+  nav .container .left h1 {
+    padding: 0 20px;
+  }
+  nav .container .right h1 {
+    padding: 0 20px;
+  }
+  #container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  .price {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+}
